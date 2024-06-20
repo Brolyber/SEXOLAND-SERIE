@@ -49,11 +49,56 @@
       },
       "region": "global",
       "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "martin-told.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "d0613660-9e8c-497e-948c-a483c64b4796",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 2161,
+          "port_start": 2160,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-20T01:03:38.745867Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "733f6770-56ab-4d02-bd95-ad7ec150e6e7",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "fcc29f5f-e9ee-4c0e-ad80-57fa6ea2508e",
+          "agent_name": "from-key-4c46",
+          "local_ip": "127.0.0.1",
+          "local_port": 2160
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   }
 }
